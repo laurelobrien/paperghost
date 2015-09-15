@@ -13,40 +13,62 @@ ul {
 /* Stylin
 ------------------------*/
 body {
-	background-color: #f4ae9d;
-	padding: 100px 0;
+  background-color: #f4ae9d;
+  padding: 100px 0;
 }
 
 .container {
-	max-width: 800px;
-	margin: 0 auto;
+  max-width: 800px;
+  margin: 0 0 0 10%;
 }
 
 h1 {
-	font-family: 'Brandon-Grotesque';
-	font-size: 5em;
-    line-height: 1em;
-	color: #fff;
-	text-transform: lowercase;
-    margin-bottom: 30px;
+  font-family: 'Brandon-Grotesque';
+  font-size: 5.5em;
+  line-height: 1.1em;
+  color: #fff;
+  text-transform: lowercase;
+  margin: 0 20px 0 0;
+  display: inline-block;
+}
+
+svg#logo {
+  height: 4em;
+  fill: #fff;
+  margin: 0;
 }
 
 h2 {
-	font-family: 'Brandon-Grotesque';
-	font-size: 2em;
-    line-height: 1em;
-    font-weight: 100;
-	color: #fff;
-    margin-bottom: 50px;
+  font-family: 'Brandon-Grotesque';
+  font-size: 3.5em;
+  line-height: 1.3em;
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+hr {
+  border-top: 0;
+  border-bottom: solid #fff 4px;
+  margin: 30px 0;
+  width: 80%;
 }
 
 p {
-	font-family: 'Adobe-Caslon-Pro';
-	color: #fff;
-	font-size: 1.5em;
+  font-family: 'Adobe-Caslon-Pro';
+  color: #fff;
+  font-size: 1.3em;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+p a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 #justifybox {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -55,9 +77,4 @@ p {
   width: 30%;
   display: inline-block;
   vertical-align: top;
-}
-
-#sphinxbox svg {
-  height: 100px;
-  fill: #fff;
 }
