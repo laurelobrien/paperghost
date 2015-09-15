@@ -14,7 +14,7 @@ ul {
 ------------------------*/
 body {
   background-color: #f4ae9d;
-  padding: 100px 0;
+  padding: 100px 0 100px 30px;
 }
 
 .container {
@@ -88,7 +88,7 @@ p a {
 
 
 /* svg Animation - needs hover trigger
-------------------------*/
+------------------------
 #righteye, #lefteye {
   animation-name: blink;
   animation-duration: 3s;
@@ -104,7 +104,7 @@ p a {
   62% { transform: scaleX(1) scaleY(1); } 
   100% { transform: scaleX(1) scaleY(1); }
 }
-
+*/
 
 /* h2 Animation
 ------------------------*/

@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+	body {
+		padding: 60px 40px 50px 20px;
+	}
+
+	#justifybox {
+		display: block;
+	}
+
+	.copywrapper, #ghostbox {
+		width: 90%;
+		display: block;
+		margin-bottom: 50px;
+	}
+
+	#ghostbox {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+		margin-bottom: 70px;
+	}
+
+	#spinlist {
+		display: block;
+	}
+
+	svg#logo {
+		height: 5em;
+	}
+
+}
