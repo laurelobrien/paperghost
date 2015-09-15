@@ -1,0 +1,63 @@
+/* Normalizing
+------------------------*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* Stylin
+------------------------*/
+body {
+	background-color: #f4ae9d;
+	padding: 100px 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Brandon-Grotesque';
+	font-size: 5em;
+    line-height: 1em;
+	color: #fff;
+	text-transform: lowercase;
+    margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Brandon-Grotesque';
+	font-size: 2em;
+    line-height: 1em;
+    font-weight: 100;
+	color: #fff;
+    margin-bottom: 50px;
+}
+
+p {
+	font-family: 'Adobe-Caslon-Pro';
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#justifybox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copywrapper {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#sphinxbox svg {
+  height: 100px;
+  fill: #fff;
+}
