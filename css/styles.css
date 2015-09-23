@@ -7,6 +7,7 @@ a {
 
 ul {
   list-style: none;
+  padding: none;
 }
 
 
@@ -62,9 +63,26 @@ p {
   line-height: 1.5em;
 }
 
-p a {
+/*p a {
   text-decoration: underline;
   font-style: italic;
+}*/
+
+li {
+  margin-bottom: 0.07em;
+}
+
+li a {
+  font-family: 'Adobe-Caslon-Pro', Garamond, Georgia, serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  line-height: normal;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #justifybox {
@@ -77,6 +95,7 @@ p a {
   width: 30%;
   display: inline-block;
   vertical-align: top;
+  margin: 0;
 }
 
 #ghostbox {
