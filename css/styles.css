@@ -55,6 +55,10 @@ hr {
   width: 80%;
 }
 
+hr.links {
+  display: none;
+}
+
 p {
   font-family: 'Adobe-Caslon-Pro';
   color: #fff;
@@ -69,7 +73,7 @@ p {
 }*/
 
 li {
-  margin-bottom: 0.07em;
+  margin-bottom: 0.1em;
 }
 
 li a {

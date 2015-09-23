@@ -17,6 +17,18 @@
 		text-align: center;
 		margin-top: 80px;
 	}
+  
+    ul {
+      padding: 0;
+    }
+  
+    hr.links {
+      display: block;
+      border-top: 0;
+      border-bottom: solid #fff 2px;
+      width: 100%;
+      margin: 5px 0 7px 0;
+    }
 
 	h1 {
 		font-size: 3.5em;
